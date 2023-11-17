@@ -1,4 +1,8 @@
 #!/bin/bash
+git add process_data.sh 
+git commit -m "revised"
+git push 
+
 
 cd /data/users/mbessire/RNA_seq/exercise_data/un
 
@@ -26,6 +30,11 @@ for x in $(ls -d *_clpd.fastq.gz); do
         -o $(basename ${x} .fastq.gz)_tr.fastq.gz \
         ${x} 1> $(basename ${x} .fastq.gz)_tr_log.txt
 done
+
+#then perform fastqc with
+
+fastqc -o /data/users/mbessire/RNA_seq/exercise_data/unprocessedWTKO/fastqc2 -f fastq
+ *_tr.fastq.gz
 
 
 
