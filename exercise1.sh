@@ -1,7 +1,3 @@
-git add process_data.sh 
-git commit -m "revised"
-git push 
-
 # Download samples
 
 prefetch --option-file samples.txt
