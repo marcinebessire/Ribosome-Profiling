@@ -2,7 +2,7 @@ cd /data/users/mbessire/RNA_seq/exercise_data/unprocessedWTKO
 
 # Mapping to undesired RNAs
 for x in $(ls -d *tr.fastq.gz); do
-    echo "Processing: ${x}"
+    echo "Processing: ${x}" #added line for debugging
     gunzip -cd "${x}" | head  # Print the first few lines of the decompressed file
     bowtie \
     -S \
