@@ -1,4 +1,5 @@
 # Check log files for each alignment job
+
 cd /data/users/mbessire/RNA_seq/exercise_data/removed_undesired_RNA
 
 for x in $(ls -d *_GRCh38_log.txt); do
