@@ -6,6 +6,6 @@ for x in $(ls -d *_sorted.bam); do
     echo "Checking alignment statistics for ${x}"
     
     # Display alignment statistics using samtools flagstat
-    samtools flagstat ${x}
+    samtools flagstat ${x} > "${x}_alignment_stats.txt"
 done
 
