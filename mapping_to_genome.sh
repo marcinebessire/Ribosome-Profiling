@@ -1,5 +1,6 @@
 # Alignment using Bowtie
 module load UHTS/Aligner/bowtie/0.12.9
+module load UHTS/Aligner/bowtie/0.12.9 
 module load UHTS/Analysis/samtools/1.8
 
 cd /data/users/mbessire/RNA_seq/exercise_data/removed_undesired_RNA
@@ -14,7 +15,7 @@ for x in $(ls -d *RNA.fastq); do
         -m 1 \
         --best \
         --strata \
-        /data/users/mbessire/RNA_seq/exercise_data/indices/GRCh38.dna.primary_assembly \
+        /data/users/mbessire/RNA_seq/exercise_data/bowtie_files/GRCh38.dna.primary_assembly \
         -q ${x} \
         2> $(basename ${x} .fastq)_GRCh38_log.txt | \
     samtools view \
