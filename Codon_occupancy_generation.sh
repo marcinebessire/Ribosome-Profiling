@@ -1,3 +1,4 @@
+cd /data/users/mbessire/RNA_seq/exercise_data/codon_occupancy
 
 ./Codon_occupancy_cal.sh \
 /data/users/mbessire/RNA_seq/exercise_data/indices/GRCh38_APPRIS_CDS_18_SingleLine.fa \
