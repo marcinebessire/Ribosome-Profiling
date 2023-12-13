@@ -1,5 +1,3 @@
-chmod +x Codon_occupancy_generation.sh
-./Codon_occupancy_generation.sh
 
 ./Codon_occupancy_cal.sh \
 /data/users/mbessire/RNA_seq/exercise_data/indices/GRCh38_APPRIS_CDS_18_SingleLine.fa \
