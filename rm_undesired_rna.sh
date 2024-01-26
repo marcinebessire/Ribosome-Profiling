@@ -1,5 +1,6 @@
 cd /data/users/mbessire/RNA_seq/exercise_data/unprocessedWTKO
 
+#mapping to undesired RNA
 for x in $(ls -d *tr.fastq.gz); do
     echo ${x}; \
     gunzip -cd ${x} | \
