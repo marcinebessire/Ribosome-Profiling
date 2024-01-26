@@ -4,6 +4,7 @@
 
 # Download fatoTwoBit:
 
+#make this on your local computer!
 # For linux (http://hgdownload.soe.ucsc.edu/admin/exe/linux.x86_64/faToTwoBit)
 # For Mac (http://hgdownload.soe.ucsc.edu/admin/exe/macOSX.x86_64/faToTwoBit)
 # Other platforms (http://hgdownload.soe.ucsc.edu/admin/exe/)
